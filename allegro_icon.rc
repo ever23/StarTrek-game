@@ -1,0 +1,32 @@
+#include <windows.h>
+#include "version.h"
+A ICON MOVEABLE PURE LOADONCALL DISCARDABLE "file/icono_0.ico"
+// asegurateque al compilarel icono esteen la mismacarpeta queel proyecto.
+// Estoes adicionalsi quiereslo rellenassi no no,eslo que saldra en las propiedadesdel programa
+1 VERSIONINFO
+FILEVERSION RC_FILEVERSION
+PRODUCTVERSION RC_FILEVERSION
+FILETYPE VFT_APP
+{
+BLOCK "StringFileInfo"
+{
+BLOCK "040A04E4"
+{
+VALUE "EVER GAMES ", ""
+VALUE "FileVersion", ""
+VALUE "FileDescription", ""
+VALUE "STAR TREK", ""
+VALUE "LegalCopyright", ""
+VALUE "LegalTrademarks", ""
+          VALUE "STAR TREK", ""
+          VALUE "EVER GAMES", ""
+VALUE RC_FILEVERSION_STRING, ""
+}
+}
+BLOCK "VarFileInfo"
+{
+VALUE "Translation", 0x040A, 1252
+}
+}
+
+

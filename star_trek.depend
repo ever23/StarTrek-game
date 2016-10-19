@@ -1,0 +1,345 @@
+# depslib dependency file v1.0
+1422402496 source:d:\programacion\programas en c++\allegro\star trek game\star_trek realse\allegro_icon.rc
+	<windows.h>
+	"version.h"
+
+1423015747 d:\programacion\programas en c++\allegro\star trek game\star_trek realse\version.h
+
+1422804235 source:d:\programacion\programas en c++\allegro\star trek game\star_trek realse\main.cpp
+	<allegro.h>
+	"include/star_trek_game.h"
+	"include/inicia.h"
+
+1423147241 d:\programacion\programas en c++\allegro\star trek game\star_trek realse\include\star_trek_game.h
+	"escenario.h"
+	"nave.h"
+	"enemigos.h"
+	"disparos.h"
+	"recompenzas.h"
+	"impactos.h"
+	"data_grabber.h"
+	"time.h"
+	"mouse.h"
+	"buffer.h"
+	"b_aspa.h"
+	"fuente.h"
+	<vector>
+
+1421871678 d:\programacion\programas en c++\allegro\star trek game\star_trek realse\include\escenario.h
+	<allegro.h>
+	"data_grabber.h"
+
+1423148026 d:\programacion\programas en c++\allegro\star trek game\star_trek realse\include\data_grabber.h
+	<allegro.h>
+	<string>
+	"b_aspa.h"
+
+1421971477 d:\programacion\programas en c++\allegro\star trek game\star_trek realse\include\b_aspa.h
+
+1422583327 d:\programacion\programas en c++\allegro\star trek game\star_trek realse\include\nave.h
+	<allegro.h>
+	<vector>
+	"mask.h"
+	"disparos.h"
+	"data_grabber.h"
+
+1422027906 d:\programacion\programas en c++\allegro\star trek game\star_trek realse\include\mask.h
+	<allegro.h>
+
+1422583292 d:\programacion\programas en c++\allegro\star trek game\star_trek realse\include\disparos.h
+
+1423148442 d:\programacion\programas en c++\allegro\star trek game\star_trek realse\include\enemigos.h
+	<allegro.h>
+	<vector>
+	"disparos.h"
+	"mask.h"
+	"data_grabber.h"
+	"buffer.h"
+
+1423147451 d:\programacion\programas en c++\allegro\star trek game\star_trek realse\include\recompenzas.h
+	<allegro.h>
+	"data_grabber.h"
+	"buffer.h"
+	"fuente.h"
+
+1422582348 d:\programacion\programas en c++\allegro\star trek game\star_trek realse\include\buffer.h
+	<allegro.h>
+	"gfx_basic.h"
+
+1422581915 d:\programacion\programas en c++\allegro\star trek game\star_trek realse\include\gfx_basic.h
+	<allegro.h>
+	<iostream>
+	"b_aspa.h"
+	"buffer.h"
+	"data_grabber.h"
+	"mouse.h"
+	"time.h"
+	"mask.h"
+
+1421955862 d:\programacion\programas en c++\allegro\star trek game\star_trek realse\include\mouse.h
+	<allegro.h>
+	<vector>
+	"b_aspa.h"
+
+1421948741 d:\programacion\programas en c++\allegro\star trek game\star_trek realse\include\time.h
+	<allegro.h>
+
+1422208416 d:\programacion\programas en c++\allegro\star trek game\star_trek realse\include\impactos.h
+	<allegro.h>
+	"enemigos.h"
+	"nave.h"
+	"mask.h"
+	<vector>
+
+1423147108 d:\programacion\programas en c++\allegro\star trek game\star_trek realse\include\inicia.h
+	<allegro.h>
+	<fstream>
+	<vector>
+	"gfx_basic.h"
+	"data_grabber.h"
+	"mouse.h"
+	"buffer.h"
+	"fuente.h"
+
+1422043127 source:d:\programacion\programas en c++\allegro\star trek game\star_trek realse\src\b_aspa.cpp
+	"../include/b_aspa.h"
+	<allegro.h>
+
+1422582257 source:d:\programacion\programas en c++\allegro\star trek game\star_trek realse\src\buffer.cpp
+	"../include/buffer.h"
+	"../include/gfx_basic.h"
+	<iostream>
+
+1422395716 source:d:\programacion\programas en c++\allegro\star trek game\star_trek realse\src\data_grabber.cpp
+	"../include/data_grabber.h"
+	<iostream>
+
+1423148393 source:d:\programacion\programas en c++\allegro\star trek game\star_trek realse\src\enemigos.cpp
+	"../include/enemigos.h"
+
+1422583399 source:d:\programacion\programas en c++\allegro\star trek game\star_trek realse\src\escenario.cpp
+	"../include/escenario.h"
+
+1423273794 source:d:\programacion\programas en c++\allegro\star trek game\star_trek realse\src\gfx_basic.cpp
+	"../include/gfx_basic.h"
+	<winalleg.h>
+	<iostream>
+	<iostream_alleg.h>
+
+1423010942 source:d:\programacion\programas en c++\allegro\star trek game\star_trek realse\src\impactos.cpp
+	"../include/impactos.h"
+	<stdarg.h>
+	<iostream>
+
+1423147158 source:d:\programacion\programas en c++\allegro\star trek game\star_trek realse\src\inicia.cpp
+	"../include/inicia.h"
+	<iostream_alleg.h>
+	<allegttf.h>
+	<iostream>
+
+1422028430 source:d:\programacion\programas en c++\allegro\star trek game\star_trek realse\src\mask.cpp
+	<allegro.h>
+	"../include/mask.h"
+
+1422394466 source:d:\programacion\programas en c++\allegro\star trek game\star_trek realse\src\mouse.cpp
+	"../include/mouse.h"
+	<iostream>
+
+1422220144 source:d:\programacion\programas en c++\allegro\star trek game\star_trek realse\src\nave.cpp
+	"../include/nave.h"
+
+1423147556 source:d:\programacion\programas en c++\allegro\star trek game\star_trek realse\src\recompezas.cpp
+	"../include/recompenzas.h"
+	<iostream_alleg.h>
+	<allegttf.h>
+
+1423148035 source:d:\programacion\programas en c++\allegro\star trek game\star_trek realse\src\star_trek_game.cpp
+	"../include/star_trek_game.h"
+	<iostream>
+	<allegttf.h>
+	<iostream_alleg.h>
+
+1422394079 source:d:\programacion\programas en c++\allegro\star trek game\star_trek realse\src\time.cpp
+	"../include/time.h"
+	"../include/gfx_basic.h"
+	<iostream>
+
+1423146894 source:d:\programacion\programas en c++\allegro\star trek game\star_trek realse\src\fuente.cpp
+	<iostream>
+
+1423147007 d:\programacion\programas en c++\allegro\star trek game\star_trek realse\include\fuente.h
+	<allegro.h>
+	<allegttf.h>
+
+1422402496 source:e:\programas en c++\allegro\star trek game\star_trek realse\allegro_icon.rc
+	<windows.h>
+	"version.h"
+
+1423015747 e:\programas en c++\allegro\star trek game\star_trek realse\version.h
+
+1422804235 source:e:\programas en c++\allegro\star trek game\star_trek realse\main.cpp
+	<allegro.h>
+	"include/star_trek_game.h"
+	"include/inicia.h"
+
+1423147241 e:\programas en c++\allegro\star trek game\star_trek realse\include\star_trek_game.h
+	"escenario.h"
+	"nave.h"
+	"enemigos.h"
+	"disparos.h"
+	"recompenzas.h"
+	"impactos.h"
+	"data_grabber.h"
+	"time.h"
+	"mouse.h"
+	"buffer.h"
+	"b_aspa.h"
+	"fuente.h"
+	<vector>
+
+1421871678 e:\programas en c++\allegro\star trek game\star_trek realse\include\escenario.h
+	<allegro.h>
+	"data_grabber.h"
+
+1423148026 e:\programas en c++\allegro\star trek game\star_trek realse\include\data_grabber.h
+	<allegro.h>
+	<string>
+	"b_aspa.h"
+
+1421971477 e:\programas en c++\allegro\star trek game\star_trek realse\include\b_aspa.h
+
+1422583327 e:\programas en c++\allegro\star trek game\star_trek realse\include\nave.h
+	<allegro.h>
+	<vector>
+	"mask.h"
+	"disparos.h"
+	"data_grabber.h"
+
+1422027906 e:\programas en c++\allegro\star trek game\star_trek realse\include\mask.h
+	<allegro.h>
+
+1422583292 e:\programas en c++\allegro\star trek game\star_trek realse\include\disparos.h
+
+1423148442 e:\programas en c++\allegro\star trek game\star_trek realse\include\enemigos.h
+	<allegro.h>
+	<vector>
+	"disparos.h"
+	"mask.h"
+	"data_grabber.h"
+	"buffer.h"
+
+1422582348 e:\programas en c++\allegro\star trek game\star_trek realse\include\buffer.h
+	<allegro.h>
+	"gfx_basic.h"
+
+1422581915 e:\programas en c++\allegro\star trek game\star_trek realse\include\gfx_basic.h
+	<allegro.h>
+	<iostream>
+	"b_aspa.h"
+	"buffer.h"
+	"data_grabber.h"
+	"mouse.h"
+	"time.h"
+	"mask.h"
+
+1421955862 e:\programas en c++\allegro\star trek game\star_trek realse\include\mouse.h
+	<allegro.h>
+	<vector>
+	"b_aspa.h"
+
+1421948741 e:\programas en c++\allegro\star trek game\star_trek realse\include\time.h
+	<allegro.h>
+
+1423147451 e:\programas en c++\allegro\star trek game\star_trek realse\include\recompenzas.h
+	<allegro.h>
+	"data_grabber.h"
+	"buffer.h"
+	"fuente.h"
+
+1423147007 e:\programas en c++\allegro\star trek game\star_trek realse\include\fuente.h
+	<allegro.h>
+	<allegttf.h>
+
+1422208416 e:\programas en c++\allegro\star trek game\star_trek realse\include\impactos.h
+	<allegro.h>
+	"enemigos.h"
+	"nave.h"
+	"mask.h"
+	<vector>
+
+1423147108 e:\programas en c++\allegro\star trek game\star_trek realse\include\inicia.h
+	<allegro.h>
+	<fstream>
+	<vector>
+	"gfx_basic.h"
+	"data_grabber.h"
+	"mouse.h"
+	"buffer.h"
+	"fuente.h"
+
+1422043127 source:e:\programas en c++\allegro\star trek game\star_trek realse\src\b_aspa.cpp
+	"../include/b_aspa.h"
+	<allegro.h>
+
+1422582257 source:e:\programas en c++\allegro\star trek game\star_trek realse\src\buffer.cpp
+	"../include/buffer.h"
+	"../include/gfx_basic.h"
+	<iostream>
+
+1422395716 source:e:\programas en c++\allegro\star trek game\star_trek realse\src\data_grabber.cpp
+	"../include/data_grabber.h"
+	<iostream>
+
+1423148393 source:e:\programas en c++\allegro\star trek game\star_trek realse\src\enemigos.cpp
+	"../include/enemigos.h"
+
+1422583399 source:e:\programas en c++\allegro\star trek game\star_trek realse\src\escenario.cpp
+	"../include/escenario.h"
+
+1423146894 source:e:\programas en c++\allegro\star trek game\star_trek realse\src\fuente.cpp
+	<iostream>
+
+1423273794 source:e:\programas en c++\allegro\star trek game\star_trek realse\src\gfx_basic.cpp
+	"../include/gfx_basic.h"
+	<winalleg.h>
+	<iostream>
+	<iostream_alleg.h>
+
+1423010942 source:e:\programas en c++\allegro\star trek game\star_trek realse\src\impactos.cpp
+	"../include/impactos.h"
+	<stdarg.h>
+	<iostream>
+
+1423147158 source:e:\programas en c++\allegro\star trek game\star_trek realse\src\inicia.cpp
+	"../include/inicia.h"
+	<iostream_alleg.h>
+	<allegttf.h>
+	<iostream>
+
+1422028430 source:e:\programas en c++\allegro\star trek game\star_trek realse\src\mask.cpp
+	<allegro.h>
+	"../include/mask.h"
+
+1422394466 source:e:\programas en c++\allegro\star trek game\star_trek realse\src\mouse.cpp
+	"../include/mouse.h"
+	<iostream>
+
+1422220144 source:e:\programas en c++\allegro\star trek game\star_trek realse\src\nave.cpp
+	"../include/nave.h"
+
+1423147556 source:e:\programas en c++\allegro\star trek game\star_trek realse\src\recompezas.cpp
+	"../include/recompenzas.h"
+	<iostream_alleg.h>
+	<allegttf.h>
+
+1427469622 source:e:\programas en c++\allegro\star trek game\star_trek realse\src\star_trek_game.cpp
+	"../include/star_trek_game.h"
+	<iostream>
+	<allegttf.h>
+	<iostream_alleg.h>
+
+1422394079 source:e:\programas en c++\allegro\star trek game\star_trek realse\src\time.cpp
+	"../include/time.h"
+	"../include/gfx_basic.h"
+	<iostream>
+

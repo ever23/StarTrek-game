@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="star_trek" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option show_notes="0">
+			<notes>
+				<![CDATA[dgv]]>
+			</notes>
+		</Option>
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/star_trek" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/star_trek" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="dd">
+				<Option output="bin/dd/star_trek" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/dd/" />
+				<Option object_output="obj/dd/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DBUILD_DLL" />
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="user32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="allegro_icon.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="include/b_aspa.h" />
+		<Unit filename="include/buffer.h" />
+		<Unit filename="include/data_grabber.h" />
+		<Unit filename="include/disparos.h" />
+		<Unit filename="include/enemigos.h" />
+		<Unit filename="include/escenario.h" />
+		<Unit filename="include/fuente.h" />
+		<Unit filename="include/gfx_basic.h" />
+		<Unit filename="include/impactos.h" />
+		<Unit filename="include/inicia.h" />
+		<Unit filename="include/mask.h" />
+		<Unit filename="include/mouse.h" />
+		<Unit filename="include/nave.h" />
+		<Unit filename="include/recompenzas.h" />
+		<Unit filename="include/star_trek_game.h" />
+		<Unit filename="include/time.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/b_aspa.cpp" />
+		<Unit filename="src/buffer.cpp" />
+		<Unit filename="src/data_grabber.cpp" />
+		<Unit filename="src/enemigos.cpp" />
+		<Unit filename="src/escenario.cpp" />
+		<Unit filename="src/fuente.cpp" />
+		<Unit filename="src/gfx_basic.cpp" />
+		<Unit filename="src/impactos.cpp" />
+		<Unit filename="src/inicia.cpp" />
+		<Unit filename="src/mask.cpp" />
+		<Unit filename="src/mouse.cpp" />
+		<Unit filename="src/nave.cpp" />
+		<Unit filename="src/recompezas.cpp" />
+		<Unit filename="src/star_trek_game.cpp" />
+		<Unit filename="src/time.cpp" />
+		<Unit filename="version.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="" main="" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxDialog wxs="wxsmith/NewDialog.wxs" src="NewDialog.cpp" hdr="NewDialog.h" fwddecl="0" i18n="1" name="NewDialog" language="CPP" />
+				</resources>
+			</wxsmith>
+			<AutoVersioning>
+				<Scheme minor_max="10" build_max="0" rev_max="0" rev_rand_max="10" build_times_to_increment_minor="100" />
+				<Settings autoincrement="1" date_declarations="1" use_define="0" update_manifest="0" do_auto_increment="0" ask_to_increment="0" language="C++" svn="0" svn_directory="" header_path="version.h " />
+				<Changes_Log show_changes_editor="0" app_title="released version %M.%m.%b of %p" changeslog_path="ChangesLog.txt" />
+				<Code header_guard="VERSION_H" namespace="AutoVersion" prefix="" />
+			</AutoVersioning>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
