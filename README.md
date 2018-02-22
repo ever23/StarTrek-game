@@ -5,13 +5,13 @@ El juego StarTrek Game funciona solo en Windows,
 esta programado en C++ usando la libreria
 allegro.h 
 
-![StarTrek Game](http://EnyerberFranco.com.ve/src/images/startrek.png?GDw=400 "Star Trek Game logo")
+![StarTrek Game](file/startrek.png "Star Trek Game logo")
 
-![StarTrek Game](http://EnyerberFranco.com.ve/src/images/startrek5.jpg?GDw=400 "Star Trek Game primera nave")
+![StarTrek Game](file/startrek5.jpg "Star Trek Game primera nave")
 
-![StarTrek Game](http://EnyerberFranco.com.ve/src/images/startrek6.jpg?GDw=400 "Star Trek Game Enterprise 1")
+![StarTrek Game](file/startrek6.jpg "Star Trek Game Enterprise 1")
 
-![StarTrek Game](http://EnyerberFranco.com.ve/src/images/startrek2.jpg?GDw=400 "Star Trek  Enterprise 2")
+![StarTrek Game](file/startrek2.jpg "Star Trek  Enterprise 2")
 
 
 ## Instalacion 
